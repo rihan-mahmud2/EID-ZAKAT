@@ -1,5 +1,35 @@
+:root {
+  --header-color: white;
+  --btn-bg-color: red;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  height: 600px;
+  background-image: url("images/eid.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.header-content {
+  color: white;
+}
+
+.header-content a {
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 25px;
+  background-color: rgba(82, 236, 203, 0.815);
+  padding: 15px 20px;
+  border-radius: 10px;
 }
